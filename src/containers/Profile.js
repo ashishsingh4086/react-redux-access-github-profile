@@ -36,8 +36,9 @@ class Profile extends Component {
 
   render() {
     return (
-      <div className="input-field col s6">
+      <div style={{ textAlign: "center" }}>
         <input
+          className="input-form"
           type="text"
           onChange={this.onInputChange}
           value={this.state.term}
